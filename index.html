@@ -1,750 +1,807 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta charset="utf-8">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, viewport-fit=cover"
+  >
 
-<title>Anam – Portfolio</title>
+  <title>Anam – Portfolio</title>
 
-<link
-  href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700&family=DM+Sans:wght@400;500;600&family=Caveat:wght@600&display=swap"
-  rel="stylesheet"
->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700&family=DM+Sans:wght@400;500;600&family=Caveat:wght@600&display=swap"
+    rel="stylesheet"
+  >
 
-<link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<aside class="rail" aria-label="Sections">
-  <a href="#home">Hero Section</a>
-  <a href="#about">About Section</a>
-  <a href="#skills">Skills Section</a>
-  <a href="#projects">Projects Section</a>
-  <a href="#services">Services Section</a>
-  <a href="#contact">Contact Section</a>
-</aside>
+  <aside class="rail" aria-label="Sections">
+    <a href="#home">Hero Section</a>
+    <a href="#about">About Section</a>
+    <a href="#skills">Skills Section</a>
+    <a href="#projects">Projects Section</a>
+    <a href="#services">Services Section</a>
+    <a href="#contact">Contact Section</a>
+  </aside>
 
-<header>
-  <div class="wrap">
-    <nav aria-label="Main">
+  <header>
+    <div class="wrap">
+      <nav aria-label="Main">
 
-      <a class="logo" href="#home">
-        <b class="signature-mark">AN</b>
-        Anam
-      </a>
-
-      <ul>
-        <li><a class="on" href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-
-      <a class="btn sm" href="#contact">Let's talk</a>
-
-    </nav>
-  </div>
-</header>
-
-<main>
-
-<!-- HERO -->
-
-<section class="hero" id="home">
-  <div class="wrap hero-wrap">
-
-    <div class="hero-content reveal">
-
-      <small>Hello, I'm</small>
-
-      <h1>
-        <em>Anam</em>
-      </h1>
-
-      <h2>
-        Web Developer, Marketer &amp; Graphic Designer
-      </h2>
-
-      <p>
-        I build clean websites, design eye-catching graphics and plan simple
-        marketing for small businesses. I like turning ideas into work that
-        looks good and works well.
-      </p>
-
-      <div class="row">
-
-        <a class="btn" href="#projects">
-          View my work
+        <a class="logo" href="#home">
+          <b class="monogram" aria-label="AN">AN</b>
+          <span class="logo-name">Anam</span>
         </a>
 
-        <a class="btn ghost" href="#contact">
-          Contact me
-        </a>
-
-      </div>
-
-      <!-- SOCIAL LINKS -->
-
-      <div class="social" aria-label="Social links">
-
-        <!-- LinkedIn -->
-        <a href="#" aria-label="LinkedIn">
-          <svg viewBox="0 0 24 24" aria-hidden="true">
-            <path
-              d="M6.5 8.1A2.1 2.1 0 1 0 6.5 4a2.1 2.1 0 0 0 0 4.1ZM4.7 9.7h3.6V20H4.7V9.7Zm5.8 0h3.4v1.4h.1c.5-.9 1.6-1.8 3.4-1.8 3.6 0 4.3 2.3 4.3 5.2V20h-3.6v-4.9c0-1.2 0-2.8-1.7-2.8-1.7 0-2 1.3-2 2.7V20h-3.6V9.7Z"
-            />
-          </svg>
-        </a>
-
-        <!-- GitHub -->
-        <a href="#" aria-label="GitHub">
-          <svg viewBox="0 0 24 24" aria-hidden="true">
-            <path
-              d="M12 2.5a9.5 9.5 0 0 0-3 18.5c.5.1.7-.2.7-.5v-1.8c-2.8.6-3.4-1.2-3.4-1.2-.5-1.2-1.1-1.5-1.1-1.5-.9-.6.1-.6.1-.6 1 .1 1.6 1 1.6 1 .9 1.6 2.4 1.1 3 .8.1-.7.4-1.1.7-1.3-2.2-.3-4.5-1.1-4.5-4.8 0-1.1.4-2 1-2.7-.1-.3-.4-1.4.1-2.7 0 0 .8-.3 2.8 1a9.7 9.7 0 0 1 5.1 0c2-1.3 2.8-1 2.8-1 .5 1.3.2 2.4.1 2.7.6.7 1 1.6 1 2.7 0 3.7-2.3 4.5-4.5 4.8.4.3.7.9.7 1.8v2.7c0 .3.2.6.7.5A9.5 9.5 0 0 0 12 2.5Z"
-            />
-          </svg>
-        </a>
-
-        <!-- Behance -->
-        <a href="#" aria-label="Behance">
-          <svg viewBox="0 0 24 24" aria-hidden="true">
-            <path
-              d="M5 6.2h5.1c2.4 0 3.8 1.2 3.8 3 0 1.1-.5 2-1.5 2.5 1.3.4 2.1 1.3 2.1 2.7 0 2.3-1.8 3.4-4.4 3.4H5V6.2Zm3 2.3v2.4h2c1 0 1.7-.4 1.7-1.2 0-.8-.6-1.2-1.7-1.2H8Zm0 4.7v2.5h2.2c1.1 0 1.8-.5 1.8-1.3 0-.8-.7-1.2-1.8-1.2H8Zm10-1.8c1.7 0 3.2 1.3 3.2 3.5v.4h-5.6c.1 1.1.7 1.7 1.7 1.7.8 0 1.3-.3 1.7-.9l1.8 1c-.7 1.1-1.9 1.8-3.6 1.8-2.7 0-4.2-1.6-4.2-3.8 0-2.2 1.5-3.7 4-3.7Zm-2.3 2.4h3.3c-.1-.9-.6-1.4-1.5-1.4-.9 0-1.5.5-1.8 1.4Zm.7-4.5h3.4v.9h-3.4v-.9Z"
-            />
-          </svg>
-        </a>
-
-      </div>
-
-    </div>
-
-    <!-- HERO IMAGE -->
-
-    <div class="photo reveal">
-
-      <img
-        class="hero-image"
-        src="hero-girl-home.png"
-        alt="Illustration of Anam working on a laptop"
-      >
-
-      <div class="note">
-        creative mind,<br>
-        clean code
-      </div>
-
-    </div>
-
-  </div>
-</section>
-
-
-<!-- ABOUT -->
-
-<section class="about" id="about">
-  <div class="wrap">
-
-    <h2 class="t reveal">
-      About <span>me</span>
-    </h2>
-
-    <div class="grid">
-
-      <div class="reveal">
-
-        <p>
-          I'm Anam, a student from Faisalabad. I build websites, design
-          graphics and plan marketing for small businesses. I start with the
-          audience, sketch the idea, then finish it in Figma, Canva and code.
-        </p>
-
-        <ul class="info">
-
-          <li>
-            <b>Education:</b>
-            BS Computer Science (add your details)
-          </li>
-
-          <li>
-            <b>Location:</b>
-            Faisalabad, Pakistan
-          </li>
-
-          <li>
-            <b>Email:</b>
-            anam.freelance.work@gmail.com
-          </li>
-
-          <li>
-            <b>Languages:</b>
-            English, Urdu
-          </li>
-
+        <ul>
+          <li><a class="on" href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
 
-      </div>
+        <a class="btn sm" href="#contact">Let's talk</a>
 
-      <div class="stats">
-
-        <div class="stat reveal">
-          <b>5+</b>
-          <span>Projects completed</span>
-        </div>
-
-        <div class="stat reveal">
-          <b>9</b>
-          <span>Tools and skills</span>
-        </div>
-
-        <div class="stat reveal">
-          <b>1+</b>
-          <span>Year of experience</span>
-        </div>
-
-      </div>
-
+      </nav>
     </div>
+  </header>
 
-  </div>
-</section>
 
+  <main>
 
-<!-- SKILLS -->
+    <!-- ==================== HERO ==================== -->
 
-<section id="skills">
-  <div class="wrap">
+    <section class="hero" id="home">
+      <div class="wrap hero-wrap">
 
-    <h2 class="t reveal">
-      My <span>skills</span>
-    </h2>
+        <div class="hero-content reveal">
 
-    <div class="skills-grid">
+          <small>Hello, I'm</small>
 
-      <!-- HTML -->
+          <h1>
+            <span class="name-white">An</span><span class="name-green">am</span>
+          </h1>
 
-      <div class="skill-card reveal">
-
-        <div class="skill-top">
-
-          <div class="skill-name">
-
-            <i class="skill-icon html-icon">
-              HTML
-            </i>
-
-            <span>HTML</span>
-
-          </div>
-
-          <strong>80%</strong>
-
-        </div>
-
-        <div class="progress">
-          <span style="width:80%"></span>
-        </div>
-
-      </div>
-
-
-      <!-- CSS -->
-
-      <div class="skill-card reveal">
-
-        <div class="skill-top">
-
-          <div class="skill-name">
-
-            <i class="skill-icon css-icon">
-              CSS
-            </i>
-
-            <span>CSS</span>
-
-          </div>
-
-          <strong>70%</strong>
-
-        </div>
-
-        <div class="progress">
-          <span style="width:70%"></span>
-        </div>
-
-      </div>
-
-
-      <!-- JAVASCRIPT -->
-
-      <div class="skill-card reveal">
-
-        <div class="skill-top">
-
-          <div class="skill-name">
-
-            <i class="skill-icon js-icon">
-              JS
-            </i>
-
-            <span>JavaScript</span>
-
-          </div>
-
-          <strong>60%</strong>
-
-        </div>
-
-        <div class="progress">
-          <span style="width:60%"></span>
-        </div>
-
-      </div>
-
-
-      <!-- REACT -->
-
-      <div class="skill-card reveal">
-
-        <div class="skill-top">
-
-          <div class="skill-name">
-
-            <i class="skill-icon react-icon">
-              ⚛
-            </i>
-
-            <span>React</span>
-
-          </div>
-
-          <strong>50%</strong>
-
-        </div>
-
-        <div class="progress">
-          <span style="width:50%"></span>
-        </div>
-
-      </div>
-
-    </div>
-
-  </div>
-</section>
-
-
-<!-- PROJECTS -->
-
-<section id="projects">
-
-  <div class="wrap">
-
-    <h2 class="t reveal">
-      My <span>projects</span>
-    </h2>
-
-    <div class="projects">
-
-
-      <!-- PROJECT 1 -->
-
-      <article class="proj reveal">
-
-        <div class="thumb">
-
-          <img
-            src="property-finder-project.png"
-            alt="Property Finder project preview"
-          >
-
-        </div>
-
-        <div class="b">
-
-          <h3>
-            Property Finder
-          </h3>
+          <h2>
+            Web Developer, Marketer &amp; Graphic Designer
+          </h2>
 
           <p>
-            A website to search houses and plots by city, price and size.
+            I build clean websites, design eye-catching graphics and plan simple
+            marketing for small businesses. I like turning ideas into work that
+            looks good and works well.
           </p>
 
           <div class="row">
+            <a class="btn" href="#projects">View my work</a>
+            <a class="btn ghost" href="#contact">Contact me</a>
+          </div>
 
-            <a
-              class="btn sm"
-              href="#"
-            >
-              Live demo
+
+          <!-- SOCIAL LINKS -->
+
+          <div class="social" aria-label="Social links">
+
+            <!-- LinkedIn -->
+            <a href="#" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M6.5 8.1A2.1 2.1 0 1 0 6.5 4a2.1 2.1 0 0 0 0 4.1ZM4.7 9.7h3.6V20H4.7V9.7Zm5.8 0h3.4v1.4h.1c.5-.9 1.6-1.8 3.4-1.8 3.6 0 4.3 2.3 4.3 5.2V20h-3.6v-4.9c0-1.2 0-2.8-1.7-2.8-1.7 0-2 1.3-2 2.7V20h-3.6V9.7Z"
+                />
+              </svg>
             </a>
 
-            <a
-              class="btn sm ghost"
-              href="#"
-            >
-              View code
+            <!-- GitHub -->
+            <a href="#" aria-label="GitHub">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M12 2.5a9.5 9.5 0 0 0-3 18.5c.5.1.7-.2.7-.5v-1.8c-2.8.6-3.4-1.2-3.4-1.2-.5-1.2-1.1-1.5-1.1-1.5-.9-.6.1-.6.1-.6 1 .1 1.6 1 1.6 1 .9 1.6 2.4 1.1 3 .8.1-.7.4-1.1.7-1.3-2.2-.3-4.5-1.1-4.5-4.8 0-1.1.4-2 1-2.7-.1-.3-.4-1.4.1-2.7 0 0 .8-.3 2.8 1a9.7 9.7 0 0 1 5.1 0c2-1.3 2.8-1 2.8-1 .5 1.3.2 2.4.1 2.7.6.7 1 1.6 1 2.7 0 3.7-2.3 4.5-4.5 4.8.4.3.7.9.7 1.8v2.7c0 .3.2.6.7.5A9.5 9.5 0 0 0 12 2.5Z"
+                />
+              </svg>
+            </a>
+
+            <!-- Behance -->
+            <a href="#" aria-label="Behance">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M5 6.2h5.1c2.4 0 3.8 1.2 3.8 3 0 1.1-.5 2-1.5 2.5 1.3.4 2.1 1.3 2.1 2.7 0 2.3-1.8 3.4-4.4 3.4H5V6.2Zm3 2.3v2.4h2c1 0 1.7-.4 1.7-1.2 0-.8-.6-1.2-1.7-1.2H8Zm0 4.7v2.5h2.2c1.1 0 1.8-.5 1.8-1.3 0-.8-.7-1.2-1.8-1.2H8Zm10-1.8c1.7 0 3.2 1.3 3.2 3.5v.4h-5.6c.1 1.1.7 1.7 1.7 1.7.8 0 1.3-.3 1.7-.9l1.8 1c-.7 1.1-1.9 1.8-3.6 1.8-2.7 0-4.2-1.6-4.2-3.8 0-2.2 1.5-3.7 4-3.7Zm-2.3 2.4h3.3c-.1-.9-.6-1.4-1.5-1.4-.9 0-1.5.5-1.8 1.4Zm.7-4.5h3.4v.9h-3.4v-.9Z"
+                />
+              </svg>
             </a>
 
           </div>
 
         </div>
 
-      </article>
 
+        <!-- HERO IMAGE — SAME IMAGE -->
 
-      <!-- PROJECT 2 -->
-
-      <article class="proj reveal">
-
-        <div class="thumb">
+        <div class="photo reveal">
 
           <img
-            src="social-media-set-project.png"
-            alt="Social Media Set project preview"
+            class="hero-image"
+            src="hero-girl-home.png"
+            alt="Anam profile illustration"
           >
 
-        </div>
-
-        <div class="b">
-
-          <h3>
-            Social Media Set
-          </h3>
-
-          <p>
-            Matching post and story designs for a small business.
-          </p>
-
-          <div class="row">
-
-            <a
-              class="btn sm"
-              href="#"
-            >
-              View work
-            </a>
-
+          <div class="note">
+            creative mind,<br>
+            clean code
           </div>
 
         </div>
 
-      </article>
-
-
-      <!-- PROJECT 3 -->
-
-      <article class="proj reveal">
-
-        <div class="thumb">
-
-          <img
-            src="brand-logo-project.png"
-            alt="Brand and Logo project preview"
-          >
-
-        </div>
-
-        <div class="b">
-
-          <h3>
-            Brand &amp; Logo
-          </h3>
-
-          <p>
-            A simple logo, colors and fonts for a new brand.
-          </p>
-
-          <div class="row">
-
-            <a
-              class="btn sm"
-              href="#"
-            >
-              View work
-            </a>
-
-          </div>
-
-        </div>
-
-      </article>
-
-
-      <!-- PROJECT 4 -->
-
-      <article class="proj reveal">
-
-        <div class="thumb">
-
-          <img
-            src="marketing-campaign-project.png"
-            alt="Marketing Campaign project preview"
-          >
-
-        </div>
-
-        <div class="b">
-
-          <h3>
-            Marketing Campaign
-          </h3>
-
-          <p>
-            A one-month plan with posts, captions and reach goals.
-          </p>
-
-          <div class="row">
-
-            <a
-              class="btn sm"
-              href="#"
-            >
-              View work
-            </a>
-
-          </div>
-
-        </div>
-
-      </article>
-
-    </div>
-
-  </div>
-
-</section>
-
-
-<!-- SERVICES -->
-
-<section id="services">
-
-  <div class="wrap">
-
-    <h2 class="t reveal">
-      My <span>services</span>
-    </h2>
-
-    <div class="svc">
-
-      <div class="card reveal">
-        <i>◈</i>
-        <h3>Website development</h3>
-        <p>
-          Fast, clean websites that work on phones.
-        </p>
       </div>
-
-      <div class="card reveal">
-        <i>✎</i>
-        <h3>Graphic &amp; brand design</h3>
-        <p>
-          Logos, posts and brand looks that match.
-        </p>
-      </div>
-
-      <div class="card reveal">
-        <i>⌕</i>
-        <h3>Digital marketing</h3>
-        <p>
-          Simple plans and social media content.
-        </p>
-      </div>
-
-      <div class="card reveal">
-        <i>▤</i>
-        <h3>Content writing</h3>
-        <p>
-          Clear text in English and Urdu.
-        </p>
-      </div>
-
-    </div>
-
-  </div>
-
-</section>
+    </section>
 
 
-<!-- CONTACT -->
+    <!-- ==================== ABOUT ==================== -->
 
-<section class="touch" id="contact">
+    <section class="about" id="about">
 
-  <div class="wrap">
+      <div class="wrap">
 
-    <h2 class="t reveal">
-      Get in <span>touch</span>
-    </h2>
+        <h2 class="t reveal">
+          About <span>me</span>
+        </h2>
 
-    <div class="grid">
+        <div class="grid">
 
-      <div class="reveal">
+          <div class="reveal">
 
-        <p class="lead">
-          Have a project or an opportunity?
-          Send a message and I'll reply within a day.
-        </p>
+            <p>
+              I'm Anam, a student from Faisalabad. I build websites, design
+              graphics and plan marketing for small businesses. I start with the
+              audience, sketch the idea, then finish it in Figma, Canva and code.
+            </p>
 
-        <div class="det">
+            <ul class="info">
 
-          <div>
+              <li>
+                <b>Education:</b>
+                BS Computer Science (add your details)
+              </li>
 
-            <i>✉</i>
+              <li>
+                <b>Location:</b>
+                Faisalabad, Pakistan
+              </li>
 
-            <a href="mailto:anam.freelance.work@gmail.com">
-              anam.freelance.work@gmail.com
-            </a>
+              <li>
+                <b>Email:</b>
+                anam.freelance.work@gmail.com
+              </li>
+
+              <li>
+                <b>Languages:</b>
+                English, Urdu
+              </li>
+
+            </ul>
 
           </div>
 
-          <div>
 
-            <i>☎</i>
+          <div class="stats">
 
-            <a href="tel:03075533568">
-              03075533568
-            </a>
+            <div class="stat reveal">
+              <b>5+</b>
+              <span>Projects completed</span>
+            </div>
 
-          </div>
+            <div class="stat reveal">
+              <b>9</b>
+              <span>Tools and skills</span>
+            </div>
 
-          <div>
-
-            <i>⌂</i>
-
-            Faisalabad, Pakistan
+            <div class="stat reveal">
+              <b>1+</b>
+              <span>Year of experience</span>
+            </div>
 
           </div>
 
         </div>
-
-        <img
-          class="contact-image"
-          src="assets/contact-illustration.png"
-          alt="Laptop and workspace illustration"
-        >
 
       </div>
 
+    </section>
 
-      <form
-        class="reveal"
-        onsubmit="return false"
-      >
 
-        <div>
+    <!-- ==================== SKILLS ==================== -->
 
-          <label for="n">
-            Name
-          </label>
+    <section id="skills">
 
-          <input
-            id="n"
-            placeholder="Your name"
-          >
+      <div class="wrap">
+
+        <h2 class="t reveal">
+          My <span>skills</span>
+        </h2>
+
+
+        <div class="skills-grid">
+
+
+          <!-- HTML 100% -->
+
+          <div class="skill-card reveal">
+
+            <div class="skill-top">
+
+              <div class="skill-name">
+
+                <i class="skill-icon html-icon">
+                  HTML
+                </i>
+
+                <span>HTML</span>
+
+              </div>
+
+              <strong>100%</strong>
+
+            </div>
+
+            <div class="progress">
+              <span style="width:100%;"></span>
+            </div>
+
+          </div>
+
+
+          <!-- CSS 95% -->
+
+          <div class="skill-card reveal">
+
+            <div class="skill-top">
+
+              <div class="skill-name">
+
+                <i class="skill-icon css-icon">
+                  CSS
+                </i>
+
+                <span>CSS</span>
+
+              </div>
+
+              <strong>95%</strong>
+
+            </div>
+
+            <div class="progress">
+              <span style="width:95%;"></span>
+            </div>
+
+          </div>
+
+
+          <!-- JAVASCRIPT 80% -->
+
+          <div class="skill-card reveal">
+
+            <div class="skill-top">
+
+              <div class="skill-name">
+
+                <i class="skill-icon js-icon">
+                  JS
+                </i>
+
+                <span>JavaScript</span>
+
+              </div>
+
+              <strong>80%</strong>
+
+            </div>
+
+            <div class="progress">
+              <span style="width:80%;"></span>
+            </div>
+
+          </div>
+
+
+          <!-- REACT 80% -->
+
+          <div class="skill-card reveal">
+
+            <div class="skill-top">
+
+              <div class="skill-name">
+
+                <i class="skill-icon react-icon">
+                  ⚛
+                </i>
+
+                <span>React</span>
+
+              </div>
+
+              <strong>80%</strong>
+
+            </div>
+
+            <div class="progress">
+              <span style="width:80%;"></span>
+            </div>
+
+          </div>
+
 
         </div>
 
+      </div>
 
-        <div>
+    </section>
 
-          <label for="e">
-            Email
-          </label>
 
-          <input
-            id="e"
-            type="email"
-            placeholder="you@email.com"
-          >
+    <!-- ==================== PROJECTS ==================== -->
+
+    <section id="projects">
+
+      <div class="wrap">
+
+        <h2 class="t reveal">
+          My <span>projects</span>
+        </h2>
+
+
+        <div class="projects">
+
+
+          <!-- PROPERTY FINDER -->
+
+          <article class="proj reveal">
+
+            <div class="thumb">
+
+              <img
+                src="property-finder-project.png"
+                alt="Property Finder project preview"
+              >
+
+            </div>
+
+            <div class="b">
+
+              <h3>
+                Property Finder
+              </h3>
+
+              <p>
+                A website to search houses and plots by city, price and size.
+              </p>
+
+              <div class="row">
+
+                <a
+                  class="btn sm"
+                  href="#"
+                >
+                  Live demo
+                </a>
+
+                <a
+                  class="btn sm ghost"
+                  href="#"
+                >
+                  View code
+                </a>
+
+              </div>
+
+            </div>
+
+          </article>
+
+
+          <!-- SOCIAL MEDIA -->
+
+          <article class="proj reveal">
+
+            <div class="thumb">
+
+              <img
+                src="social-media-set-project.png"
+                alt="Social Media Set project preview"
+              >
+
+            </div>
+
+            <div class="b">
+
+              <h3>
+                Social Media Set
+              </h3>
+
+              <p>
+                Matching post and story designs for a small business.
+              </p>
+
+              <div class="row">
+
+                <a
+                  class="btn sm"
+                  href="#"
+                >
+                  View work
+                </a>
+
+              </div>
+
+            </div>
+
+          </article>
+
+
+          <!-- BRAND & LOGO -->
+
+          <article class="proj reveal">
+
+            <div class="thumb">
+
+              <img
+                src="brand-logo-project.png"
+                alt="Brand and Logo project preview"
+              >
+
+            </div>
+
+            <div class="b">
+
+              <h3>
+                Brand &amp; Logo
+              </h3>
+
+              <p>
+                A simple logo, colors and fonts for a new brand.
+              </p>
+
+              <div class="row">
+
+                <a
+                  class="btn sm"
+                  href="#"
+                >
+                  View work
+                </a>
+
+              </div>
+
+            </div>
+
+          </article>
+
+
+          <!-- MARKETING CAMPAIGN -->
+
+          <article class="proj reveal">
+
+            <div class="thumb">
+
+              <img
+                src="marketing-campaign-project.png"
+                alt="Marketing Campaign project preview"
+              >
+
+            </div>
+
+            <div class="b">
+
+              <h3>
+                Marketing Campaign
+              </h3>
+
+              <p>
+                A one-month plan with posts, captions and reach goals.
+              </p>
+
+              <div class="row">
+
+                <a
+                  class="btn sm"
+                  href="#"
+                >
+                  View work
+                </a>
+
+              </div>
+
+            </div>
+
+          </article>
+
 
         </div>
 
+      </div>
 
-        <div class="full">
+    </section>
 
-          <label for="m">
-            Message
-          </label>
 
-          <textarea
-            id="m"
-            placeholder="How can I help?"
-          ></textarea>
+    <!-- ==================== SERVICES ==================== -->
+
+    <section id="services">
+
+      <div class="wrap">
+
+        <h2 class="t reveal">
+          My <span>services</span>
+        </h2>
+
+
+        <div class="svc">
+
+
+          <div class="card reveal">
+
+            <i>◈</i>
+
+            <h3>
+              Website development
+            </h3>
+
+            <p>
+              Fast, clean websites that work on phones.
+            </p>
+
+          </div>
+
+
+          <div class="card reveal">
+
+            <i>✎</i>
+
+            <h3>
+              Graphic &amp; brand design
+            </h3>
+
+            <p>
+              Logos, posts and brand looks that match.
+            </p>
+
+          </div>
+
+
+          <div class="card reveal">
+
+            <i>⌕</i>
+
+            <h3>
+              Digital marketing
+            </h3>
+
+            <p>
+              Simple plans and social media content.
+            </p>
+
+          </div>
+
+
+          <div class="card reveal">
+
+            <i>▤</i>
+
+            <h3>
+              Content writing
+            </h3>
+
+            <p>
+              Clear text in English and Urdu.
+            </p>
+
+          </div>
+
 
         </div>
 
+      </div>
 
-        <div class="full">
-
-          <button
-            class="btn"
-            type="button"
-          >
-            Send message
-          </button>
-
-        </div>
-
-      </form>
-
-    </div>
-
-  </div>
-
-</section>
-
-</main>
+    </section>
 
 
-<!-- FOOTER -->
+    <!-- ==================== CONTACT ==================== -->
 
-<footer>
-
-  <div class="wrap">
-
-    <a
-      class="logo"
-      href="#home"
+    <section
+      class="touch"
+      id="contact"
     >
-      <b class="signature-mark">AN</b>
-      Anam
-    </a>
 
-    <ul>
+      <div class="wrap">
 
-      <li>
-        <a href="#about">
-          About
-        </a>
-      </li>
-
-      <li>
-        <a href="#projects">
-          Projects
-        </a>
-      </li>
-
-      <li>
-        <a href="#contact">
-          Contact
-        </a>
-      </li>
-
-    </ul>
-
-    <span>
-      © 2026 Anam. All rights reserved.
-    </span>
-
-  </div>
-
-</footer>
+        <h2 class="t reveal">
+          Get in <span>touch</span>
+        </h2>
 
 
-<script src="script.js"></script>
+        <div class="grid">
+
+
+          <div class="reveal">
+
+            <p class="lead">
+              Have a project or an opportunity?
+              Send a message and I'll reply within a day.
+            </p>
+
+
+            <div class="det">
+
+
+              <div>
+
+                <i>✉</i>
+
+                <a
+                  href="mailto:anam.freelance.work@gmail.com"
+                >
+                  anam.freelance.work@gmail.com
+                </a>
+
+              </div>
+
+
+              <div>
+
+                <i>☎</i>
+
+                <a
+                  href="tel:+983281982164"
+                >
+                  +983281982164
+                </a>
+
+              </div>
+
+
+              <div>
+
+                <i>⌂</i>
+
+                Faisalabad, Pakistan
+
+              </div>
+
+
+            </div>
+
+
+            <img
+              class="contact-image"
+              src="property-finder-project.png"
+              alt="Laptop and workspace illustration"
+            >
+
+          </div>
+
+
+          <form
+            class="reveal"
+            onsubmit="return false"
+          >
+
+            <div>
+
+              <label for="n">
+                Name
+              </label>
+
+              <input
+                id="n"
+                placeholder="Your name"
+              >
+
+            </div>
+
+
+            <div>
+
+              <label for="e">
+                Email
+              </label>
+
+              <input
+                id="e"
+                type="email"
+                placeholder="you@email.com"
+              >
+
+            </div>
+
+
+            <div class="full">
+
+              <label for="m">
+                Message
+              </label>
+
+              <textarea
+                id="m"
+                placeholder="How can I help?"
+              ></textarea>
+
+            </div>
+
+
+            <div class="full">
+
+              <button
+                class="btn"
+                type="button"
+              >
+                Send message
+              </button>
+
+            </div>
+
+
+          </form>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- ==================== FOOTER ==================== -->
+
+  <footer>
+
+    <div class="wrap">
+
+      <a
+        class="logo"
+        href="#home"
+      >
+        <b class="monogram" aria-label="AN">AN</b>
+        <span class="logo-name">Anam</span>
+      </a>
+
+
+      <ul>
+
+        <li>
+          <a href="#about">
+            About
+          </a>
+        </li>
+
+        <li>
+          <a href="#projects">
+            Projects
+          </a>
+        </li>
+
+        <li>
+          <a href="#contact">
+            Contact
+          </a>
+        </li>
+
+      </ul>
+
+
+      <span>
+        © 2026 Anam. All rights reserved.
+      </span>
+
+    </div>
+
+  </footer>
+
+
+  <script src="script.js"></script>
 
 </body>
 </html>
